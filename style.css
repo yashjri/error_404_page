@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.frame{
+    background: url(error.gif);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.frame p{
+    position: absolute;
+    top: 3rem;
+    font-size: 7rem;
+    color: #00000063;
+}
+.frame h2{
+    position: absolute;
+    bottom: 8rem;
+    font-size: 34px;
+}
+.frame h5{
+    position: absolute;
+    bottom: 6rem;
+    color: #9c9c9c;
+}
+.frame a{
+    position: absolute;
+    bottom: 1rem;
+    background: linear-gradient(45deg,#ff0034,#ffbc00);
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+    border-radius: 13px;
+}
